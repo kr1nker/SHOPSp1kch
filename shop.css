@@ -1,0 +1,74 @@
+@font-face {
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 700;
+ src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+body {
+ background: #000;
+ font-family: 'Open Sans', sans-serif;
+}
+h1 {
+ text-transform: uppercase;
+ text-align: left;
+ font-weight: bold;
+ font-style: italic;
+ font-size: 25px;
+}
+h1.neonText {
+ color: #F8C9FD;
+ text-shadow: 0 0 5px #DD18FF, 0 0 10px #DD18FF, 0 0 20px #DD18FF, 0 0 40px #DD18FF, 0 0 80px #DD18FF;
+}
+
+#zatemnenie {
+       background: rgba(102, 102, 102, 0.5);
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       display: none;
+     }
+     #okno {
+       width: 300px;
+       height: 220px;
+       text-align: center;
+       padding: 15px;
+       border: 3px solid #9625E9;
+       border-radius: 10px;
+       color: #9625E9;
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       margin: auto;
+       background: #472263;
+     }
+     #zatemnenie:target {display: block;}
+     .close {
+       display: inline-block;
+       border: 1px solid #0000cc;
+       border-radius: 7%;
+       color: #f7f3f3;
+       padding: 0 12px;
+       margin: 10px;
+       text-decoration: none;
+       text-transform: uppercase;
+       background: #232121;
+       background-color: transparent;
+       font-size: 14pt;
+       cursor:pointer;
+     }
+     .close:hover {background: #e6e6ff;}
+     .glow {
+  color: #f038ff;
+}
+
+.glow:hover {
+  background-color: #f038ff;
+  color: #fff;
+  border: 1px solid #f038ff;
+  box-shadow: 5px 5px 50px 6px #f038ff;
+}
